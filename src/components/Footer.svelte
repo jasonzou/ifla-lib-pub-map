@@ -10,8 +10,8 @@
 
 <footer>
 <a href="https://www.ifla.org/library-publishing">&copy; Library Publishing Interest Group</a>&nbsp; | &nbsp;
-<a href="/test.html">About </a> &nbsp;|&nbsp; 
-<a href="/Resources.html">Useful Resources</a> 
+<a href="/about.html">About </a> &nbsp;|&nbsp; 
+<a href="/resources.html">Useful Resources</a> 
 </footer>
 
 <style>

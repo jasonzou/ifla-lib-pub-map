@@ -11,13 +11,15 @@
 <header>
     {#if innerWidth > 768}
         <div class="header-bar">
-            <a href="https://www.ifla.org"><img src="images/logo.png" alt="IFLA logo" /></a>
-            <h3 class="title is-3" id="title">Library Publishing Map of the World</h3>
+            <a class="is-1" href="https://www.ifla.org"><img src="images/logo.png" alt="IFLA logo" /></a>
+            <h1 class="title is-3" id="title">Library Publishing Map of the World</h1>
+            <a class="is-3" href="https://www.ifla.org/library-publishing"><img src="images/ifla95.png" alt="IFLA Library Publishing SIG logo" /></a>
         </div>
     {:else}
         <div class="header-bar">
-            <a href="https://www.ifla.org"><img src="images/logo.png" alt="IFLA logo" /></a>
-            <h3 class="title is-5" id="title">Library Publishing Map of the World</h3>
+            <a class="is-1" href="https://www.ifla.org"><img src="images/logo.png" alt="IFLA logo" /></a>
+            <h1 class="title is-5" id="title">Library Publishing Map of the World</h1>
+            <a class="is-5" href="https://www.ifla.org/library-publishing"><img src="images/ifla95.png" alt="IFLA Library Publishing SIG logo" /></a>
         </div>
     {/if}
 </header>

@@ -74,7 +74,7 @@
 </script>
 
 {#if categoryOptions && 'data' in categoryOptions}
-    <SlimSelect bind:value={selectedCategories} options={categoryOptions} multiple={true} text="Categories"/>
+    <SlimSelect bind:value={selectedCategories} options={categoryOptions} multiple={true} text="Types of Libraries"/>
 {/if}
 
 <style>
