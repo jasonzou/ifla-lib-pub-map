@@ -5,7 +5,7 @@ function getColors(rows) {
     //get colors and icons from constants
     return rows.map(row => {
         const lookup = styles.find(style => style.categoryName === row['Category'])
-        console.log(lookup)
+        //console.log(lookup)
 
         //defaults
         let fillColor = '#909090',
@@ -19,7 +19,7 @@ function getColors(rows) {
             strokeColor = lookup.strokeColor
             icon = lookup.icon
         }else{
-          console.log('opppps')
+          //console.log('opppps')
         }
 
         return {...row, fillColor, strokeColor, icon, _closed}
@@ -62,7 +62,7 @@ async function importData(file, store) {
     //filter for rows with latlng
     const filterRows = rows.filter(({Latitude, Longitude}) => +Latitude && +Longitude)
 
-    console.log(`Imported ${filterRows.length} out of ${rows.length}. Check latlng columns, if there are missing rows.`, rows[0])
+    //console.log(`Imported ${filterRows.length} out of ${rows.length}. Check latlng columns, if there are missing rows.`, rows[0])
 
     store.set(sortByAlphabet(removeOverlap(getColors(filterRows))))
 }

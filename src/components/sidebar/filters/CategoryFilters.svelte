@@ -52,7 +52,7 @@
             //remove existing filter
             const _filters = $filters
             const filter = _filters.findIndex(f => f.label === 'categories')
-            console.log(filter)
+            //console.log(filter)
             if (filter > -1) _filters.splice(filter, 1)
             //generate new filter
             if(selectedCategories){
